@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+ruby '2.2.2'
+
+# Specify gem depdencies in xsl-configuration-service.gemspec
+gemspec

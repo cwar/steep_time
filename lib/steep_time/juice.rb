@@ -2,7 +2,7 @@ module SteepTime
   class Juice
     attr_accessor :brand, :flavor, :volume_ml, :nicotine_mg
 
-    def initilize(args)
+    def initialize(args = {})
       @brand = args[:brand]
       @flavor = args[:flavor]
       @volume_ml = args[:volume_ml]
